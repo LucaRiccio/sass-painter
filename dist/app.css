@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #101010;
+  height: 90px;
+}
+
+header .header-top {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  width: 50%;
+  background-color: red;
+}
+
+header .header-top li {
+  display: inline-block;
+}
+
+header .header-bottom {
+  height: 50%;
+}
+

@@ -1,0 +1,18 @@
+
+header{
+  background-color:$coloreHeaderFooter;
+  height: $altezzaHeaderFooter;
+  .header-top{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 50%;
+    background-color: red;
+    li{
+      display: inline-block;
+    }
+  }
+  .header-bottom{
+    height: 50%;
+  }
+}
