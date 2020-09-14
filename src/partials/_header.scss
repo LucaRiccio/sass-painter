@@ -7,15 +7,22 @@ header{
     justify-content: flex-end;
     flex-direction: row;
     height: 50%;
+    #language {
+      margin-right: 90px;
+    }
     li{
       display: inline-block;
       margin-right: 25px;
       a {
         color: grey;
+        text-decoration: none;
         .fas{
           color: $coloreIconsButtons;
+          margin-right: 5px;
+        }&:hover{
+          color: $coloreText;
+          text-decoration: underline;
         }
-
       }
     }
   }
@@ -23,13 +30,24 @@ header{
     height: 50%;
     .logo {
       display: inline-block;
+      margin-left: 60px;
+      img{
+        width: 95px;
+        height: 25px;
+      }
     }
     .navigation-bottom {
       display: inline-block;
       li {
         display: inline-block;
+        margin-right: 40px;
         a{
           color: $coloreText;
+          text-decoration: none;
+          .fas {
+            color: grey;
+            font-size: 10px;
+          }
         }
       }
     }

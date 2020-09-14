@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -16,6 +17,10 @@ header .header-top {
   height: 50%;
 }
 
+header .header-top #language {
+  margin-right: 90px;
+}
+
 header .header-top li {
   display: inline-block;
   margin-right: 25px;
@@ -23,10 +28,17 @@ header .header-top li {
 
 header .header-top li a {
   color: grey;
+  text-decoration: none;
 }
 
 header .header-top li a .fas {
   color: #009cff;
+  margin-right: 5px;
+}
+
+header .header-top li a:hover {
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 header .header-bottom {
@@ -35,6 +47,12 @@ header .header-bottom {
 
 header .header-bottom .logo {
   display: inline-block;
+  margin-left: 60px;
+}
+
+header .header-bottom .logo img {
+  width: 95px;
+  height: 25px;
 }
 
 header .header-bottom .navigation-bottom {
@@ -43,9 +61,16 @@ header .header-bottom .navigation-bottom {
 
 header .header-bottom .navigation-bottom li {
   display: inline-block;
+  margin-right: 40px;
 }
 
 header .header-bottom .navigation-bottom li a {
   color: #ffffff;
+  text-decoration: none;
+}
+
+header .header-bottom .navigation-bottom li a .fas {
+  color: grey;
+  font-size: 10px;
 }
 
