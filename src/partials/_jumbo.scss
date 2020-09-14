@@ -1,7 +1,5 @@
 .jumbo {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  @include flex(row,center);
   background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg');
   height: 400px;
   background-position: top;
@@ -16,14 +14,20 @@
   }
 }
 
-// .jumbo-right {
-//   color: $coloreText;
-//   width: 30%;
-//   height: 90%;
-//   position: relative;
-//   bottom: auto;
-//   background-color: black;
-//   h2 {
-//     display: inline-block;
-//   }
-// }
+.jumbo-right {
+  color: $coloreText;
+  opacity: 0.8;
+  background-color: black;
+  padding: 0px 20px;
+  width: 30%;
+  h2 {
+    display: inline-block;
+  }
+  img {
+    float: right;
+  }
+  .jumbo-right-down {
+    background-color: #e6e6e6;
+    color: $coloreTextAlt;
+  }
+}

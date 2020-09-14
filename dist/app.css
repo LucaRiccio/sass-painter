@@ -12,8 +12,8 @@ header {
 
 header .header-top {
   display: flex;
-  justify-content: flex-end;
   flex-direction: row;
+  justify-content: flex-end;
   height: 50%;
 }
 
@@ -90,5 +90,26 @@ header .header-bottom .navigation-bottom li a .fas {
 
 .jumbo .jumbo-left .jumbo-list li {
   list-style: none;
+}
+
+.jumbo-right {
+  color: #ffffff;
+  opacity: 0.8;
+  background-color: black;
+  padding: 0px 20px;
+  width: 30%;
+}
+
+.jumbo-right h2 {
+  display: inline-block;
+}
+
+.jumbo-right img {
+  float: right;
+}
+
+.jumbo-right .jumbo-right-down {
+  background-color: #e6e6e6;
+  color: #333333;
 }
 

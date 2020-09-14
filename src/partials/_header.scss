@@ -3,9 +3,7 @@ header{
   background-color: $coloreHeaderFooter;
   height: $altezzaHeaderFooter;
   .header-top{
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
+    @include flex(row,flex-end);
     height: 50%;
     #language {
       margin-right: 90px;
