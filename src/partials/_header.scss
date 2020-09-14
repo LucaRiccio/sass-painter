@@ -1,18 +1,37 @@
 
 header{
-  background-color:$coloreHeaderFooter;
+  background-color: $coloreHeaderFooter;
   height: $altezzaHeaderFooter;
   .header-top{
     display: flex;
+    justify-content: flex-end;
     flex-direction: row;
     height: 50%;
-    width: 50%;
-    background-color: red;
     li{
       display: inline-block;
+      margin-right: 25px;
+      a {
+        color: grey;
+        .fas{
+          color: $coloreIconsButtons;
+        }
+
+      }
     }
   }
   .header-bottom{
     height: 50%;
+    .logo {
+      display: inline-block;
+    }
+    .navigation-bottom {
+      display: inline-block;
+      li {
+        display: inline-block;
+        a{
+          color: $coloreText;
+        }
+      }
+    }
   }
 }

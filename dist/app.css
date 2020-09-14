@@ -11,17 +11,41 @@ header {
 
 header .header-top {
   display: flex;
+  justify-content: flex-end;
   flex-direction: row;
   height: 50%;
-  width: 50%;
-  background-color: red;
 }
 
 header .header-top li {
   display: inline-block;
+  margin-right: 25px;
+}
+
+header .header-top li a {
+  color: grey;
+}
+
+header .header-top li a .fas {
+  color: #009cff;
 }
 
 header .header-bottom {
   height: 50%;
+}
+
+header .header-bottom .logo {
+  display: inline-block;
+}
+
+header .header-bottom .navigation-bottom {
+  display: inline-block;
+}
+
+header .header-bottom .navigation-bottom li {
+  display: inline-block;
+}
+
+header .header-bottom .navigation-bottom li a {
+  color: #ffffff;
 }
 
