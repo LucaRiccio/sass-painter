@@ -74,3 +74,21 @@ header .header-bottom .navigation-bottom li a .fas {
   font-size: 10px;
 }
 
+.jumbo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
+  height: 400px;
+  background-position: top;
+  background-size: cover;
+}
+
+.jumbo .jumbo-left {
+  color: #ffffff;
+}
+
+.jumbo .jumbo-left .jumbo-list li {
+  list-style: none;
+}
+
