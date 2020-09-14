@@ -12,7 +12,7 @@ header{
       display: inline-block;
       margin-right: 25px;
       a {
-        color: grey;
+        color: $coloreTextGrey;
         text-decoration: none;
         .fas{
           color: $coloreIconsButtons;
@@ -43,7 +43,7 @@ header{
           color: $coloreText;
           text-decoration: none;
           .fas {
-            color: grey;
+            color: $coloreTextGrey;
             font-size: 10px;
           }
         }
