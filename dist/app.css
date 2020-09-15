@@ -80,6 +80,7 @@ header .header-bottom .navigation-bottom li a .fas {
   justify-content: flex-end;
   background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
   height: 400px;
+  margin-bottom: -16px;
   background-position: top;
   background-size: cover;
 }
@@ -135,5 +136,30 @@ header .header-bottom .navigation-bottom li a .fas {
 .jumbo-right .jumbo-right-down {
   background-color: #e6e6e6;
   color: #333333;
+}
+
+.sticky-container {
+  width: 100%;
+  background-color: #e6e6e6;
+  height: 70px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.sticky-container .sticky li {
+  display: inline-block;
+  height: 70px;
+  width: 140px;
+  line-height: 70px;
+  text-align: center;
+  text-decoration: none;
+  color: #333333;
+}
+
+li:hover {
+  background-color: #f8f8f8;
+  border-bottom: 2px solid #e6e6e6;
+  box-sizing: border-box;
 }
 
