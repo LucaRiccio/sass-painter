@@ -163,3 +163,36 @@ li:hover {
   box-sizing: border-box;
 }
 
+.video-section {
+  height: 500px;
+  width: 100%;
+  margin-top: -19px;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.video-section .video-testo {
+  padding-top: 100px;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+.slider-section {
+  height: 500px;
+  width: 100%;
+  margin-top: -19px;
+  background-color: #ffffff;
+}
+
+.slider-section .slider-testo {
+  padding-top: 100px;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  color: #333333;
+}
+
